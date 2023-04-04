@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.hankPymImage {
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+}
+
+.subMenu {
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 17%;
+    height: 50px;
+}
+
+.subMenu ul {
+    background-color: #202020;
+}
+
+.subMenuOption {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.subMenuList li:hover {
+    border-top: 2px solid red;
+}
+
+.descriptionCharacter {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    margin-top: 12%;
+    margin-left: 15%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+/* Nav Section */
+.navMarvel {
+    max-height: fit-content;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #202020;
+}
+
+.nav-link:not(.subMenuOption) {
+    font-family: RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;;
+    font-size: 13px;
+    color: white;
+}
+
+.navbar-nav:not(.subMenuList) li:hover {
+    border-bottom: 1.5px solid red;
+}
+
+.navbar-nav:hover .nav-link:not(.subMenuOption) {
+    color: gray;
+}
+
+.navbar {
+    height: 37px;
+}
+/* Nav Section */
+
+/* Insider elements */
+.insiderNameText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.insiderLink {
+    text-decoration: none;
+}
+
+.insiderLogoImage {
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+/* Insider elements */
+
+/*  */
+
+.unlimitedLogoImage {
+    height: 40px;
+}
+
+.unlimitedText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/*  */
+
+/* Logo nav */
+
+.marvelLogoImage {
+    width: 120px;
+    height: 40px;
+}
+/* Logo nav */
